@@ -10,7 +10,7 @@ int index = 0;
 
 while (index < n)
 {
-    if(mas[index == find])
+    if(mas[index] == find)
     {
         Console.WriteLine(index);
         break;
