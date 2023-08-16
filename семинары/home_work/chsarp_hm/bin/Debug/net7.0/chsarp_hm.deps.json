@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "chsarp_hm/1.0.0": {
+        "runtime": {
+          "chsarp_hm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "chsarp_hm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\языки программирования (семинары)\sem5\bin\Debug\net7.0\sem5.exe
+D:\языки программирования (семинары)\sem5\bin\Debug\net7.0\sem5.deps.json
+D:\языки программирования (семинары)\sem5\bin\Debug\net7.0\sem5.runtimeconfig.json
+D:\языки программирования (семинары)\sem5\bin\Debug\net7.0\sem5.dll
+D:\языки программирования (семинары)\sem5\bin\Debug\net7.0\sem5.pdb
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\sem5.csproj.AssemblyReference.cache
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\sem5.GeneratedMSBuildEditorConfig.editorconfig
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\sem5.AssemblyInfoInputs.cache
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\sem5.AssemblyInfo.cs
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\sem5.csproj.CoreCompileInputs.cache
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\sem5.dll
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\refint\sem5.dll
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\sem5.pdb
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\sem5.genruntimeconfig.cache
+D:\языки программирования (семинары)\sem5\obj\Debug\net7.0\ref\sem5.dll
