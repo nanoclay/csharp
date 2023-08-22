@@ -168,3 +168,10 @@ WriteMas(myMas);
 Console.WriteLine(Raznica(myMas));
 */
 
+
+
+
+bool Tringl(int a, int b, int c)
+{
+return a < b + c && b < a + c && c < a + b;
+}
