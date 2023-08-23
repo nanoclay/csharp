@@ -1,0 +1,14 @@
+D:\языки програмирования\csharp\семинары\temp\bin\Debug\net7.0\temp.exe
+D:\языки програмирования\csharp\семинары\temp\bin\Debug\net7.0\temp.deps.json
+D:\языки програмирования\csharp\семинары\temp\bin\Debug\net7.0\temp.runtimeconfig.json
+D:\языки програмирования\csharp\семинары\temp\bin\Debug\net7.0\temp.dll
+D:\языки програмирования\csharp\семинары\temp\bin\Debug\net7.0\temp.pdb
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\temp.GeneratedMSBuildEditorConfig.editorconfig
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\temp.AssemblyInfoInputs.cache
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\temp.AssemblyInfo.cs
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\temp.csproj.CoreCompileInputs.cache
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\temp.dll
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\refint\temp.dll
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\temp.pdb
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\temp.genruntimeconfig.cache
+D:\языки програмирования\csharp\семинары\temp\obj\Debug\net7.0\ref\temp.dll

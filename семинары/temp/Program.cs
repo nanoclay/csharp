@@ -1,4 +1,6 @@
-﻿int[] CreateMasRandom(int size, int min, int max)
+﻿// рандомный массив
+/*
+int[] CreateMasRandom(int size, int min, int max)
 {
     int[] mas = new int[size];
 
@@ -28,10 +30,10 @@ int max1 = Convert.ToInt32(Console.ReadLine());
 
 int[] myMas = CreateMasRandom(size, min1, max1);
 WriteMas(myMas);
+*/
 
 
-
-
+//дз по 5 семинару
 
 //Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 //[345, 897, 568, 234] -> 2
@@ -169,9 +171,13 @@ Console.WriteLine(Raznica(myMas));
 */
 
 
-
-
-bool Tringl(int a, int b, int c)
+//bool метод сокращенный
+/*
+bool NameMetod(int a, int b, int c)
 {
-return a < b + c && b < a + c && c < a + b;
+    return //условие без if. Если да, то запишется true, если нет, то false];
 }
+*/
+string temp = "02";
+temp = temp + 1;
+Console.WriteLine(temp);
