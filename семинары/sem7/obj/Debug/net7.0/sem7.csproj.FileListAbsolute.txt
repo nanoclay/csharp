@@ -1,0 +1,14 @@
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\sem7.GeneratedMSBuildEditorConfig.editorconfig
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\sem7.AssemblyInfoInputs.cache
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\sem7.AssemblyInfo.cs
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\sem7.csproj.CoreCompileInputs.cache
+D:\языки програмирования\csharp\семинары\sem7\bin\Debug\net7.0\sem7.exe
+D:\языки програмирования\csharp\семинары\sem7\bin\Debug\net7.0\sem7.deps.json
+D:\языки програмирования\csharp\семинары\sem7\bin\Debug\net7.0\sem7.runtimeconfig.json
+D:\языки програмирования\csharp\семинары\sem7\bin\Debug\net7.0\sem7.dll
+D:\языки програмирования\csharp\семинары\sem7\bin\Debug\net7.0\sem7.pdb
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\sem7.dll
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\refint\sem7.dll
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\sem7.pdb
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\sem7.genruntimeconfig.cache
+D:\языки програмирования\csharp\семинары\sem7\obj\Debug\net7.0\ref\sem7.dll
