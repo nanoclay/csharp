@@ -5,18 +5,40 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-int [,] CreateArrey2dDouble (int rows, int colums)
+
+double [,] CreateArrey2dDouble (int rows, int colums)
 {
-   int [,] array = new (rows, colums);
+   int [,] arrey = new [rows, colums];
 
    for (i = 0; i < rows; i++)
    {
       for (j = 0; j < colums; j++)
       {
-         array[l, j] = 
+           arrey[i,j] = new Random().Next(minValue, maxValue + 1);
       }
    }
+   return arrey;
 }
+
+void PrintArrey2dDouble (double [,] array)
+{
+   for (i=0; i < arrey.GetLength(0); i++)
+   {
+      for(j=0; j < arrey.GetLength(1); j++)
+      {
+         Console.Write(arrey[i,j]);
+      }
+   Console.WriteLine();
+   }
+}
+   
+Console.Write("Введите количество строк: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите количество столбцов: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+double [,] myArrey = CreateArrey2dDouble(m, n);
+PrintArrey2dDouble(myArrey);
 
 
 
