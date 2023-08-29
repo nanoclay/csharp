@@ -181,3 +181,24 @@ bool NameMetod(int a, int b, int c)
 string temp = "02";
 temp = temp + 1;
 Console.WriteLine(temp);
+
+
+
+
+int [,] CreateArrey ()
+ {
+    Console.Write("Введите количество строк массива: ");
+    int a = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Введите количество столбцов массива: ");
+    int b = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Введите минимальное знавчение: ");
+    int minNum = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Введите максимальное значение: ");
+    int maxNum = Convert.ToInt32(Console.ReadLine());
+
+    int [,] Arrey = new int[a,b];
+    for (int i = 0; i < a; i++)
+        for (int j = 0; i < b; j++)
+            Arrey[i,j] = new Random().Next(minNum, maxNum + 1);
+    return Arrey;
+ }
