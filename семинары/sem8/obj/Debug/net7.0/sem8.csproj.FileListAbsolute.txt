@@ -1,0 +1,14 @@
+D:\языки програмирования\csharp\семинары\sem8\bin\Debug\net7.0\sem8.exe
+D:\языки програмирования\csharp\семинары\sem8\bin\Debug\net7.0\sem8.deps.json
+D:\языки програмирования\csharp\семинары\sem8\bin\Debug\net7.0\sem8.runtimeconfig.json
+D:\языки програмирования\csharp\семинары\sem8\bin\Debug\net7.0\sem8.dll
+D:\языки програмирования\csharp\семинары\sem8\bin\Debug\net7.0\sem8.pdb
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\sem8.GeneratedMSBuildEditorConfig.editorconfig
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\sem8.AssemblyInfoInputs.cache
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\sem8.AssemblyInfo.cs
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\sem8.csproj.CoreCompileInputs.cache
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\sem8.dll
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\refint\sem8.dll
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\sem8.pdb
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\sem8.genruntimeconfig.cache
+D:\языки програмирования\csharp\семинары\sem8\obj\Debug\net7.0\ref\sem8.dll

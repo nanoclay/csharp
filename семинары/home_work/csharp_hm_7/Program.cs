@@ -63,6 +63,7 @@ int[,] CreateRandom2dArray()
 
 
     int[,] array = new int[rows, colums];
+    
     for(int i = 0; i < rows; i++)
         for(int j = 0; j < colums; j++)
             array[i,j] = new Random().Next(minValue, maxValue + 1);
