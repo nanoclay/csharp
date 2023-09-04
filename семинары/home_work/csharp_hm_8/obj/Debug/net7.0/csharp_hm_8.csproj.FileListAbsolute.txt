@@ -1,0 +1,14 @@
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\bin\Debug\net7.0\csharp_hm_8.exe
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\bin\Debug\net7.0\csharp_hm_8.deps.json
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\bin\Debug\net7.0\csharp_hm_8.runtimeconfig.json
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\bin\Debug\net7.0\csharp_hm_8.dll
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\bin\Debug\net7.0\csharp_hm_8.pdb
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\csharp_hm_8.GeneratedMSBuildEditorConfig.editorconfig
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\csharp_hm_8.AssemblyInfoInputs.cache
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\csharp_hm_8.AssemblyInfo.cs
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\csharp_hm_8.csproj.CoreCompileInputs.cache
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\csharp_hm_8.dll
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\refint\csharp_hm_8.dll
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\csharp_hm_8.pdb
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\csharp_hm_8.genruntimeconfig.cache
+D:\языки програмирования\csharp\семинары\home_work\csharp_hm_8\obj\Debug\net7.0\ref\csharp_hm_8.dll
