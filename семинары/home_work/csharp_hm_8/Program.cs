@@ -12,18 +12,18 @@
 int[,] CreateRandom2dArray()
 {
     Console.Write("Введите колличество строк: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
+    int u = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите колличество столбцов: ");
-    int colums = Convert.ToInt32(Console.ReadLine());
+    int n = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите минимальное значение: ");
     int minValue = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите максимальное значение: ");
     int maxValue = Convert.ToInt32(Console.ReadLine());
 
 
-    int[,] array = new int[rows, colums];
-    for(int i = 0; i < rows; i++)
-        for(int j = 0; j < colums; j++)
+    int[,] array = new int[u, n];
+    for(int i = 0; i < u; i++)
+        for(int j = 0; j < n; j++)
             array[i,j] = new Random().Next(minValue, maxValue + 1);
     
     return array;
@@ -80,18 +80,18 @@ Show2dArray(myArray);
 int[,] CreateRandom2dArray()
 {
     Console.Write("Введите колличество строк: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
+    int u = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите колличество столбцов: ");
-    int colums = Convert.ToInt32(Console.ReadLine());
+    int n = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите минимальное значение: ");
     int minValue = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите максимальное значение: ");
     int maxValue = Convert.ToInt32(Console.ReadLine());
 
 
-    int[,] array = new int[rows, colums];
-    for(int i = 0; i < rows; i++)
-        for(int j = 0; j < colums; j++)
+    int[,] array = new int[u, n];
+    for(int i = 0; i < u; i++)
+        for(int j = 0; j < n; j++)
             array[i,j] = new Random().Next(minValue, maxValue + 1);
     
     return array;
@@ -108,10 +108,10 @@ void Show2dArray (int[,] array)
     }
 }
 
-int MinNumRows(int[,] array)
+int MinNumu(int[,] array)
 {
     int minNum = 0;
-    int minRows = 0;
+    int minu = 0;
     for(int i = 0; i < array.GetLength(1); i++)
         minNum += array[0, i];
 
@@ -124,17 +124,17 @@ int MinNumRows(int[,] array)
         }
         if (count < minNum)
         {
-            minRows = i;
+            minu = i;
             minNum = count;    
         }
     }
-    return minRows;
+    return minu;
 }
 
 int[,] myArray = CreateRandom2dArray();
 Show2dArray(myArray);
 Console.WriteLine();
-Console.WriteLine($"{MinNumRows(myArray)+1} строка");
+Console.WriteLine($"{MinNumu(myArray)+1} строка");
 */
 
 // Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
@@ -149,13 +149,13 @@ Console.WriteLine($"{MinNumRows(myArray)+1} строка");
 int[,] CreateRandom2dArray()
 {
     Console.Write("Введите колличество строк: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
+    int u = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите колличество столбцов: ");
-    int colums = Convert.ToInt32(Console.ReadLine());
+    int n = Convert.ToInt32(Console.ReadLine());
 
-    int[,] array = new int[rows, colums];
-    for(int i = 0; i < rows; i++)
-        for(int j = 0; j < colums; j++)
+    int[,] array = new int[u, n];
+    for(int i = 0; i < u; i++)
+        for(int j = 0; j < n; j++)
             array[i,j] = new Random().Next(0, 10);
     
     return array;
@@ -220,10 +220,10 @@ else
 
 /*
 
-int[,,] CreateRandom3dArray(int rows, int colums, int sloys)
+int[,,] CreateRandom3dArray(int u, int n, int sloys)
 {
-    int[,,] array = new int[rows, colums, sloys];
-    int[] Num = new int[rows*colums*sloys];
+    int[,,] array = new int[u, n, sloys];
+    int[] Num = new int[u*n*sloys];
     for(int i = 0; i < Num.Length; i++)
     {
         while(Num[i] == 0)
@@ -240,8 +240,8 @@ int[,,] CreateRandom3dArray(int rows, int colums, int sloys)
     }
 
     int cur = 0;
-    for(int i = 0; i < rows; i++)
-        for(int j = 0; j < colums; j++)
+    for(int i = 0; i < u; i++)
+        for(int j = 0; j < n; j++)
             for(int l = 0; l < sloys; l++, cur++)
             {
                 array[i,j,l] = Num[cur];
@@ -285,38 +285,38 @@ else Console.Write("Генерация массива невозможна");
 // 11 16 15 06
 // 10 09 08 07
 
-using System.ComponentModel;
+РУКИ ОПУСТИЛИСЬ, НЕ МОГУ РЕШИТЬ
 
 int[,] Create2dMas ()
 {
     Console.Write("Введите число строк массива: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
+    int u = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите число столбцов массива: ");
-    int colums = Convert.ToInt32(Console.ReadLine());
+    int n = Convert.ToInt32(Console.ReadLine());
     
+    int[,] result = new int[u, n];
+    int current = 1;
 
-    int[,] result = new int[rows, colums];
+    int miniter = n;
+    if (miniter > u) miniter = u;
 
-    const int n = 7;
-
-    Console.WriteLine(result.GetLength(0));
-    Console.WriteLine(result.GetLength(1));  
-
-    for (int currentChar = 1, padding = 0; padding < n/2; padding++)
+    for (int pool = 0; pool < miniter/2; pool++)
     {
-        for (int j = padding; j < n - padding; j++)
-            result[padding, j] = currentChar;
-        for (int j = padding; j < n - padding; j++)
-            result[n - padding - 1, j] = currentChar;
-        for (int i = padding + 2; i < n - padding - 1; i++)
-            result[i, padding] = currentChar;
-        for (int i = padding + 1; i < n - padding - 1; i++)
-            result[i, n - padding - 1] = currentChar;
-        currentChar = 1 - currentChar;
-        result[padding + 1, padding] = currentChar;
+        for (int j = pool; j < n - pool; j++)           //вправо
+            result[pool, j] = current++;
+
+        for (int i = pool + 1; i < u - pool - 1; i++)     //вниз
+            result[i, n - pool - 1] = current++;
+                  
+        for(int j = n - pool - 1; j >= pool; j--)        //влево
+            result[u - 1 - pool, j] = current++;
+   
+        for(int i = u - 2 - pool; i > pool; i--)        //вверх
+            result[i, pool] = current++;
     }
-        if (n%2 != 0 && result[0, 0] == 1)
-                result[n/2, n/2] = 1;
+        if (result[n/2, n/2] == 0)
+            result[n/2, n/2] = current++;
+
         return result;
 }
 
@@ -325,11 +325,13 @@ void Show2dArray (int[,] array)
     for(int i = 0; i < array.GetLength(0); i++)
     {
         for(int j = 0; j < array.GetLength(1); j++)
-            Console.Write(array[i,j] + " ");
+            if(array[i,j] < 10) Console.Write("0"+ array[i,j] + " ");
+            else Console.Write(array[i,j] + " ");
 
         Console.WriteLine();
     }
 }
 
 int[,] Arrey = Create2dMas();
+Console.WriteLine();
 Show2dArray(Arrey);
