@@ -48,11 +48,11 @@ void Sort(int[,] array)
         {
             for(int k = 0; k < array.GetLength(1) - 1 ; k++)
             {
-                if (array[i,k] < array[i,k +1])
+                if (array[i, k] < array[i, k + 1])
                 {
-                    int temp = array[i,k];
-                    array[i,k] = array[i,k+1];
-                    array[i,k+1] = temp;
+                    int temp = array[i, k];
+                    array[i, k] = array[i, k + 1];
+                    array[i, k + 1] = temp;
                 }
             }
         }
@@ -102,7 +102,7 @@ void Show2dArray (int[,] array)
     for(int i = 0; i < array.GetLength(0); i++)
     {
         for(int j = 0; j < array.GetLength(1); j++)
-            Console.Write(array[i,j] + " ");
+            Console.Write(array[i, j] + " ");
 
         Console.WriteLine();
     }
@@ -120,7 +120,7 @@ int MinNumu(int[,] array)
         int count = 0;
         for(int j = 0; j < array.GetLength(1); j++)
         {
-            count += array[i,j];
+            count += array[i, j];
         }
         if (count < minNum)
         {
@@ -156,7 +156,7 @@ int[,] CreateRandom2dArray()
     int[,] array = new int[u, n];
     for(int i = 0; i < u; i++)
         for(int j = 0; j < n; j++)
-            array[i,j] = new Random().Next(0, 10);
+            array[i, j] = new Random().Next(0, 10);
     
     return array;
 }
@@ -166,7 +166,7 @@ void Show2dArray (int[,] array)
     for(int i = 0; i < array.GetLength(0); i++)
     {
         for(int j = 0; j < array.GetLength(1); j++)
-            Console.Write(array[i,j] + " ");
+            Console.Write(array[i, j] + " ");
 
         Console.WriteLine();
     }
@@ -182,7 +182,7 @@ int[,] Matrix(int[,] Mas1, int[,] Mas2)
         {
             for (int l = 0; l < Mas2.GetLength(0); l++)
             {
-                Matr[i,j] += Mas1[i,l] * Mas2[l,j];
+                Matr[i, j] += Mas1[i, l] * Mas2[l, j];
             }
         }
     }
@@ -223,7 +223,7 @@ else
 int[,,] CreateRandom3dArray(int u, int n, int sloys)
 {
     int[,,] array = new int[u, n, sloys];
-    int[] Num = new int[u*n*sloys];
+    int[] Num = new int[u * n * sloys];
     for(int i = 0; i < Num.Length; i++)
     {
         while(Num[i] == 0)
@@ -244,7 +244,7 @@ int[,,] CreateRandom3dArray(int u, int n, int sloys)
         for(int j = 0; j < n; j++)
             for(int l = 0; l < sloys; l++, cur++)
             {
-                array[i,j,l] = Num[cur];
+                array[i, j, l] = Num[cur];
             }
     return array;
 }
@@ -257,7 +257,7 @@ void Show3dArray (int[,,] array)
         {
             Console.WriteLine();
             for(int j = 0; j < array.GetLength(1); j++)
-                Console.Write($"{array[i,j,l]}({i},{j},{l})");
+                Console.Write($"{array[i, j, l]}({i},{j},{l})");
         }
         Console.WriteLine();
     }
@@ -285,43 +285,30 @@ else Console.Write("Генерация массива невозможна");
 // 11 16 15 06
 // 10 09 08 07
 
-РУКИ ОПУСТИЛИСЬ, НЕ МОГУ РЕШИТЬ
 
-int[,] Create2dMas ()
+void Spiral2dMas (int[,] array, int size)
 {
-    Console.Write("Введите число строк массива: ");
-    int u = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите число столбцов массива: ");
-    int n = Convert.ToInt32(Console.ReadLine());
-    
-    int[,] result = new int[u, n];
-    int current = 1;
-
-    int miniter = n;
-    if (miniter > u) miniter = u;
-
-    for (int pool = 0; pool < miniter/2; pool++)
-    {
-        for (int j = pool; j < n - pool; j++)           //вправо
-            result[pool, j] = current++;
-
-        for (int i = pool + 1; i < u - pool - 1; i++)     //вниз
-            result[i, n - pool - 1] = current++;
-                  
-        for(int j = n - pool - 1; j >= pool; j--)        //влево
-            result[u - 1 - pool, j] = current++;
-   
-        for(int i = u - 2 - pool; i > pool; i--)        //вверх
-            result[i, pool] = current++;
-    }
-        if (result[n/2, n/2] == 0)
-            result[n/2, n/2] = current++;
-
-        return result;
+   int value = 1;
+   int i = 0;
+   int j = 0;
+   while(value <= size * size)
+   {
+    array[i,j] = value;
+    if (i <= j + 1 && i + j < size - 1)
+        j++;
+    else if (i< j && i + j >= size - 1)
+        i++;
+    else if (i >= j && i + j > size - 1)
+        j--;
+        else
+            i--;
+        value++;
+   }
 }
 
-void Show2dArray (int[,] array)
+void Show2dArray (int[,] array, int size)
 {
+    Console.WriteLine($"Массив, имеющий размер {size} x {size}, заполнен по спирали.");
     for(int i = 0; i < array.GetLength(0); i++)
     {
         for(int j = 0; j < array.GetLength(1); j++)
@@ -332,6 +319,10 @@ void Show2dArray (int[,] array)
     }
 }
 
-int[,] Arrey = Create2dMas();
-Console.WriteLine();
-Show2dArray(Arrey);
+Console.Write("Введите размерность массива: " );
+int size = Convert.ToInt32(Console.ReadLine());
+
+int [,] myMas =  new int[size, size];
+
+Spiral2dMas(myMas, size);
+Show2dArray(myMas, size);
