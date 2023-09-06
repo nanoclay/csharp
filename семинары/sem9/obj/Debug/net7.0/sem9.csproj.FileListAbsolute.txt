@@ -1,0 +1,14 @@
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\sem9.GeneratedMSBuildEditorConfig.editorconfig
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\sem9.AssemblyInfoInputs.cache
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\sem9.AssemblyInfo.cs
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\sem9.csproj.CoreCompileInputs.cache
+D:\языки програмирования\csharp\семинары\sem9\bin\Debug\net7.0\sem9.exe
+D:\языки програмирования\csharp\семинары\sem9\bin\Debug\net7.0\sem9.deps.json
+D:\языки програмирования\csharp\семинары\sem9\bin\Debug\net7.0\sem9.runtimeconfig.json
+D:\языки програмирования\csharp\семинары\sem9\bin\Debug\net7.0\sem9.dll
+D:\языки програмирования\csharp\семинары\sem9\bin\Debug\net7.0\sem9.pdb
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\sem9.dll
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\refint\sem9.dll
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\sem9.pdb
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\sem9.genruntimeconfig.cache
+D:\языки програмирования\csharp\семинары\sem9\obj\Debug\net7.0\ref\sem9.dll
